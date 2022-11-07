@@ -1,0 +1,36 @@
+.home .home__hiring {
+    margin-top: 6rem;
+    text-align: center;
+}
+.home .home__hiring h5,
+.home .home__hiring p {
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.home .home__hiring h5 {
+    color: #0a66e2;
+}
+.home .home__hiring p {
+    color: #434649;
+}
+.layout {
+    display: grid;
+    grid-template-areas: "leftSide main rightSide";
+    grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 5fr);
+    grid-template-rows: auto;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin: 25px 0;
+    max-width: 1228px;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5px;
+    }
+}

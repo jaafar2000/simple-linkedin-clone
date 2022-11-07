@@ -1,0 +1,206 @@
+.main_container {
+  grid-area: main;
+}
+
+.commonCard {
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0 0 0 /15%), 0 0 0 rgba(0 0 0 /20%);
+}
+
+.shareBox {
+  display: flex;
+  flex-direction: column;
+  color: #958b7b;
+  margin: 0 0 8px;
+  background-color: white;
+}
+.shareBox button {
+  outline: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 48px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.sendPost {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.sendPost img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.sendPost .sendBtn {
+  margin: 4px 0;
+  flex-grow: 1;
+  border-radius: 35px;
+  padding-left: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.btns_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+
+.btns_container button i {
+  margin-right: 3px;
+}
+/* .btns_container button span {
+        color: #78b5f9;
+    }    */
+.btns_container button:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main__articles {
+  padding: 0;
+  margin: 0 0 8px;
+  overflow: visible;
+}
+
+.sharedActor {
+  padding-right: 40px;
+  flex-wrap: nowrap;
+  padding: 12px 16px 0;
+  margin-bottom: 8px;
+  align-items: center;
+  display: flex;
+}
+.sharedActor_C {
+  margin-right: 12px;
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+}
+.sharedActor_C img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.sharedActor_C > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-left: 8px;
+  overflow: hidden;
+}
+.sharedActor_C > div > span {
+  text-align: left;
+}
+.sharedActor_C > div > span:nth-of-type(1) {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+
+.sharedActor_C > div > span:nth-of-type(2),
+.sharedActor_C > div > span:nth-of-type(3) {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.sharedActor .btn_icon_MoreHorizIcon {
+  position: absolute;
+  top: 0px;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.description {
+  padding: 0 16px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 15px;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.sharedImg {
+  margin-top: 8px;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-color: #f9fafb;
+  overflow: hidden;
+}
+.sharedImg img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.socilaCounts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.3;
+  margin: 0 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e9e5df;
+}
+.socilaCounts li {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.socilaCounts li button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+.socilaCounts li button img {
+  margin-left: -6px;
+}
+.postActios {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-around;
+}
+.postActios button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #958b7b;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.postActios button i {
+    font-size: 2px;
+    
+}
+
+.postActios button:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.postActios button span {
+  font-weight: 600;
+  margin-left: 3px;
+}

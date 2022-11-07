@@ -1,0 +1,175 @@
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.post__model-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease-in-out;
+  animation: fadein 0.3s;
+}
+.post__model-container .pm__content {
+  max-width: 552px;
+  background-color: #fff;
+  max-height: 90%;
+  overflow: initial;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 32px;
+  margin: 0 auto;
+}
+.pm__header {
+  display: block;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pm__header button {
+  width: 40px;
+  height: 40px;
+  min-width: auto;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.pm__header button:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: transparent;
+  border: none;
+}
+
+.sharedContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+  vertical-align: baseline;
+  background: transparent;
+  padding: 8px 12px;
+}
+
+.sharedContent .pm__userInfo {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+}
+.pm__userInfo img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.pm__userInfo span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.shareCreation {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px 12px 16px;
+}
+.shareCreation .attatchAssets {
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+.shareCreation .attatchAssets button {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.shareCreation .attatchAssets button i {
+  color: rgba(0, 0, 0, 0.5);
+}
+.shareComment {
+  padding-left: 8px;
+  margin-right: auto;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+.shareComment button {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.shareComment button i {
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+}
+button i,
+button {
+  transition: all 0.2s ease-in-out;
+  font-weight: 600 !important;
+}
+button:hover,
+button:hover i {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+.postButton {
+  min-width: 16px;
+  border-radius: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #0a66c2;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.postButton:hover {
+  background: #004182;
+  color: white !important;
+  cursor: pointer;
+}
+.Editor {
+  padding: 12px 24px;
+}
+.Editor textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+textarea:focus {
+  outline: 2px solid #0a66c2 !important;
+}
+input {
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.disabled {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+}
+
+.uploadImg {
+  text-align: center;
+}
+.image {
+  width: 100%;
+}
+.uploadImg img {
+  height: 400px;
+}

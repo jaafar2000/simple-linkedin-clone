@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 100%;
+	vertical-align:  transparent;
+	background-color: transparent;
+}
+
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+}
+:root,
+body,
+html {
+	background-color: #f5f5f5;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
