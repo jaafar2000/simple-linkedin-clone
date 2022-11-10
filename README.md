@@ -1,6 +1,6 @@
 # Build and Deploy a linkdein  Clone  with React 18! (firebase with Google Authentication)
 
-Build and Deploy a linkdein Clone Clone with React 18! where you will be able to sign in in and sign out using firebase google authentication and adding posts with either photo or video link.
+Build and Deploy a linkdein Clone with React 18! where you will be able to sign in in and sign out using firebase google authentication and adding posts with either photo or video link.
 
 ## Welcome! 
 Thanks for checking out this Application.
