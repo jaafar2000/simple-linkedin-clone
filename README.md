@@ -8,7 +8,7 @@ Thanks for checking out this Application.
 ## Overview
 
 ### Links
-- Live Site URL: [Live Site](https://linkedin-clone-jhy.netlify.app)
+- Live Site URL: [Live Site](https://joyful-faloodeh-36262d.netlify.app/)
 
 ## My process
 
